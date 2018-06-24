@@ -9,8 +9,8 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  list = text.scan(/ [a-z]{5}\b/) [" briny", " crepe", " snaps", " snafu", " round", " spoon"]
-  list 
+  list = text.scan(/ [a-z]{5}\b/)
+  list
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
