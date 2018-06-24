@@ -13,7 +13,8 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  result = word =~ /[A-Z]\w+./ ? true : false
+  result = text =~ /[A-Z]\w+./ ? true : false
+  binding.pry
 end
 
 def valid_phone_number?(phone)
