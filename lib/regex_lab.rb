@@ -10,7 +10,7 @@ end
 
 def words_five_letters_long(text)
   list = text.scan(/ [a-z]{5}\b/)
-  new_list = list.join.strip
+  new_list = list.join.split
   binding.pry
 end
 
