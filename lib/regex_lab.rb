@@ -14,6 +14,8 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   result = text =~ /[A-Z].+./ ? true : false
+  binding.pry
+  result
 end
 
 def valid_phone_number?(phone)
