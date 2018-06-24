@@ -5,8 +5,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
+  puts text
   text =~ /^un\w+ing$/ ? true : false
-  binding.pry
 end
 
 def words_five_letters_long(text)
